@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: 0;
+  font-family: Outfit;
+  scroll-behavior: smooth;
+}
+
+body{
+  background-color: var(--body-color);
+  min-height: 100vh;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+.app{
+  width: 80%;
+  margin: auto;
+}
+
+@keyframes fadeIn {
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+.footer img {
+  width: auto;
+  height: 100px;
+  width: px;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+ margin-right: 80px;
+}
+.navbar-menu{
+  gap: 50px;
+}
+.logo{
+  margin-left: 90px;
+}
+.explore-menu{
+  margin-left: 81px;
+}
+.h2we{
+  margin-left: 81px;
+}
+.footer-social-icons {
+  display: flex;
+  justify-content: center; /* Align icons properly */
+  align-items: center;
+  gap: 5px; /* Adjust spacing between icons */
+  width: 34%; /* Ensure it takes full width */
+  height: auto; /* Adjust height dynamically */
+}
+.footer-social-icons img {
+  width: 40px; /* Adjust size */
+  height: 40px;
+}
